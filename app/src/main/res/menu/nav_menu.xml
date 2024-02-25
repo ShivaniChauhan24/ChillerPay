@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+    <item
+        android:id="@+id/nav_home"
+        android:icon="@drawable/home"
+        android:title="Home"
+        />
+    <item
+        android:id="@+id/nav_creditbalance"
+        android:icon="@drawable/creditball"
+        android:title="Credit Balance" />
+    <item
+        android:id="@+id/nav_debitbalance"
+        android:icon="@drawable/debitbalance"
+        android:title="Debit Balance" />
+    <item
+        android:id="@+id/nav_fundrequest"
+        android:icon="@drawable/fundrequest"
+        android:title="Fund Request" />
+    <item
+        android:id="@+id/nav_creditreport"
+        android:icon="@drawable/creditrepor"
+        android:title="Credit Report" />
+    <item
+        android:id="@+id/nav_debitreport"
+        android:icon="@drawable/debitreports"
+        android:title="Debit Report" />
+    <item
+        android:id="@+id/nav_ledgerreport"
+        android:icon="@drawable/ledgerreport"
+        android:title="Ledger Report" />
+    <item
+        android:id="@+id/nav_changepass"
+        android:icon="@drawable/changepass"
+        android:title="Change Password"/>
+    <item
+        android:id="@+id/nav_logout"
+        android:icon="@drawable/logout"
+        android:title="LogOut" />
+</menu>
